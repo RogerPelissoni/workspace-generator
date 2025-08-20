@@ -27,5 +27,18 @@
 C:\xampp\apache\bin\httpd.exe
 ```
 
-## Etapa 4 - Feedback
+## Etapa 4 - Criação de múltiplos apaches
+- O recomendado é basicamente duplicar seu apache no <SEU USUÁRIO>/Apache24
+- Para melhor separação e entendimento dos container, é recomendado utilizar um sequencial na nomeação de pastas
+```
+Apache24, Apache24_2, Apache24_3...
+htdocs, htdocs2, htdocs3...
+```
+- Ajuste as configuração referentes ao nome dado ao 'htdocs', presentes em Apache24/conf/httpd.conf
+```
+DocumentRoot "${SRVROOT}/htdocs"
+<Directory "${SRVROOT}/htdocs">
+```
+
+## Etapa 5 - Feedback
 - Seu feedback é muito importante para este projeto, caso necessite de alguma funcionalidade nova, não hesite em contatar roger@hgv.inf.br
