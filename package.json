@@ -1,0 +1,5 @@
+{
+  "name": "workspace-generator",
+  "version": "1.0.0",
+  "bin": "workspace-generator.js"
+}
