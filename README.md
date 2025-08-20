@@ -1,5 +1,9 @@
 # Tutorial de implementação
 - Sistema desenvolvido e otimizado para utilização na Farm
+- Principais motivações para criação:
+    - Facilidade em desenvolver mais de uma demanda por vez
+    - Facilidade entre a troca de sistemas
+    - Facilidade na busca de arquivos e otimização de desempenho, pois será aberto apenas um sistema por vez, indexando as funções padrão por meio de inclusão de caminhos (simula uma espécie de biblioteca)
 
 ## Etapa 1 - Gerar arquivos workspaces
 - Execute o comando: node workspace-generator.js, o mesmo irá pedir dois caminhos, o primeiro refere-se a pasta onde ficarão os workspaces gerados, e a seguinte refere-se ao caminho ende estão os sistemas
