@@ -1,4 +1,5 @@
 # Tutorial de implementação
+- Sistema desenvolvido e otimizado para utilização na Farm
 
 ## Etapa 1 - Gerar arquivos workspaces
 - Execute o comando: node workspace-generator.js, o mesmo irá pedir dois caminhos, o primeiro refere-se a pasta onde ficarão os workspaces gerados, e a seguinte refere-se ao caminho ende estão os sistemas
