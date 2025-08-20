@@ -29,7 +29,7 @@ C:\xampp\apache\bin\httpd.exe
 
 ## Etapa 4 - Criação de múltiplos apaches
 - O recomendado é basicamente duplicar seu apache no <SEU USUÁRIO>/Apache24
-- Para melhor separação e entendimento dos container, é recomendado utilizar um sequencial na nomeação de pastas
+- Para melhor separação e entendimento dos containers, é recomendado utilizar um sequencial na nomeação de pastas
 ```
 Apache24, Apache24_2, Apache24_3...
 htdocs, htdocs2, htdocs3...
