@@ -34,8 +34,9 @@ C:\xampp\apache\bin\httpd.exe
 Apache24, Apache24_2, Apache24_3...
 htdocs, htdocs2, htdocs3...
 ```
-- Ajuste as configuração referentes ao nome dado ao 'htdocs', presentes em Apache24/conf/httpd.conf
+- Ajuste as configuração referentes ao nome dado ao 'Apache24' e 'htdocs', presentes em Apache24/conf/httpd.conf
 ```
+Define SRVROOT "c:/Users/<SEU USUÁRIO>/Apache24"
 DocumentRoot "${SRVROOT}/htdocs"
 <Directory "${SRVROOT}/htdocs">
 ```
